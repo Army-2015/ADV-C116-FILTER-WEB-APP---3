@@ -1,0 +1,43 @@
+body{
+    background-color: #8a2be2;
+}
+
+#heading{
+    font-size: 37px !important;
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+    border-width: 2px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+#btn_snapshot{
+    background-color: #fff;
+    box-shadow: inset 0 0 0 0 #8a2be2;
+    border-color: #fff;
+    border-width: 4px;
+    border-radius: 7px;
+    height: 80px;
+    width: 240px;
+    color: #8a2be2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 .25rem;
+	margin: 0 -.25rem;
+    padding-top: 10px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+#btn_snapshot:hover{
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 #8a2be2;
+    transition-duration: 0.40s;
+}
+
+canvas{
+    border-style: dashed;
+    background-color: black;
+}
